@@ -3,11 +3,11 @@
 int main()
 {
     int a, b;
-    printf("write a number  \n");
+    printf("write the length \n");
     scanf("%d", &a);
-    printf("write an another number \n");
+    printf("write the breadth \n");
     scanf("%d", &b);
-    printf("this is the sum of both the number %d \n", a + b);
+    printf("this is the area of ur rectangle %d \n", a * b);
 
     return 0;
 }
