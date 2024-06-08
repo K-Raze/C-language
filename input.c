@@ -3,7 +3,7 @@
 int main()
 {
     int a, b;
-    printf("write the length \n");
+    printf("write the length. \n");
     scanf("%d", &a);
     printf("write the breadth \n");
     scanf("%d", &b);
