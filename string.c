@@ -2,15 +2,12 @@
 
 int main()
 {
-    char *str = "KartiK";
-    printf("%s ", str);
+    char *str = "Kartik Dhamija";
+    printf("%s \n", str);
 
-    char atr[] = {'K', 'a', 'r', 't', 'i', 'K', '\0'};
-    char *ptr = atr;
-    for (1; *ptr != '\0'; ptr++)
-    {
-        printf("%c", *ptr);
-    }
-    printf("\n");
+    char s[34];
+    printf("Enter your name \n");
+    scanf("%s", s);
+    printf(" your name is %s \n", s);
     return 0;
 }
