@@ -5,9 +5,10 @@ int main()
 {
     char str[35];
     printf("Enter name or something \n");
-    gets(str);
+    fgets(str, 35, stdin);
+    str[strlen(str) - 1] = '\0';
     puts(str);
     int a = strlen(str);
-    printf("Your name have %d words \n", a);
+    printf("Your name %s have %d words \n", str, a);
     return 0;
 }
